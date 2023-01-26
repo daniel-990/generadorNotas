@@ -14,7 +14,7 @@ public class Conector {
         try{
             Class. forName("com.mysql.cj.jdbc.Driver");
             con = (Connection) DriverManager.getConnection(DbMysql.getURL(), DbMysql.getUSER(), DbMysql.getPASS());
-            System.out.println("se conecto a la base de datos"+con.getSchema());
+            System.out.println("se conecto a la base de datos");
         }catch (Exception e){
             System.out.println("no hubo coneccion a la base de datos");
         }

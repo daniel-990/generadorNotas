@@ -5,7 +5,7 @@ import org.example.data.GenerarNota;
 
 import java.util.Scanner;
 
-public class Menu {
+public class Menu{
 
     public static int respuesta = 0;
     public static Scanner input = new Scanner(System.in);
